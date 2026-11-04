@@ -1,0 +1,11 @@
+asset_id,asset_name,asset_type,business_owner,business_criticality,data_classification,revenue_impact_per_hour,compliance_requirements,current_risk_score
+ASSET-001,ERP System (SAP),Business Application,CFO,High,Confidential,500000,"SOX,ISO27001",72
+ASSET-002,CRM Platform (Salesforce),Business Application,VP Sales,High,Confidential,350000,"GDPR,CCPA",45
+ASSET-003,Customer Database,Database,CDO,Critical,Restricted,750000,"GDPR,PCI-DSS",85
+ASSET-004,Production Control System (SCADA),OT System,VP Manufacturing,Critical,Internal,1200000,"IEC62443",68
+ASSET-005,Corporate Email,Infrastructure,CIO,Medium,Internal,150000,"ISO27001",23
+ASSET-006,HR Portal (Workday),Business Application,CHRO,Medium,Confidential,80000,"GDPR,SOX",38
+ASSET-007,E-commerce Platform,Business Application,VP E-commerce,Critical,Confidential,950000,"PCI-DSS,GDPR",91
+ASSET-008,Financial Reporting System,Business Application,CFO,High,Confidential,400000,"SOX",56
+ASSET-009,Supply Chain Management,Business Application,VP Logistics,High,Internal,600000,"ISO27001",42
+ASSET-010,R&D Data Repository,Database,CTO,Critical,Restricted,300000,"IP Protection",78

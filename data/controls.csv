@@ -1,0 +1,13 @@
+control_id,control_name,control_category,framework_mapping,description,weight
+CTRL-001,Multi-Factor Authentication,Identity,NIST PR.AC-1,MFA на все административные и удаленные доступы,25
+CTRL-002,Encrypted Backups,Resilience,NIST PR.DS-4,Изолированные зашифрованные бэкапы с проверкой восстановления,20
+CTRL-003,EDR/XDR Deployment,Endpoint,NIST PR.DS-5,Endpoint Detection & Response на всех серверах и рабочих станциях,20
+CTRL-004,Patch Management,Patch Management,NIST PR.IP-1,Критические обновления применены в течение 30 дней,15
+CTRL-005,Least Privilege Access,Access Control,NIST PR.AC-4,Доступ по принципу наименьших привилегий,10
+CTRL-006,Network Segmentation,Network,NIST PR.AC-5,Сегментация критичных систем от общей сети,10
+CTRL-007,Security Monitoring,Monitoring,NIST DE.CM-1,24/7 мониторинг и SIEM-корреляция событий,15
+CTRL-008,Incident Response Plan,Response,NIST RS.RP-1,Протестированный план реагирования на инциденты,10
+CTRL-009,Data Encryption at Rest,Data Protection,NIST PR.DS-1,Шифрование чувствительных данных в покое,15
+CTRL-010,Vendor Risk Management,Third Party,NIST PR.SC-7,Оценка безопасности критичных вендоров,10
+CTRL-011,Security Awareness Training,People,NIST PR.AT-1,Ежеквартальное обучение сотрудников + фишинг-симуляции,10
+CTRL-012,Privileged Access Management,Identity,NIST PR.AC-6,PAM-решение для привилегированных учетных записей,15

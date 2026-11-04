@@ -1,0 +1,121 @@
+asset_id,control_id,implementation_status,effectiveness_score,last_assessment_date,evidence
+ASSET-001,CTRL-001,Implemented,95,2026-10-15,Okta MFA audit report
+ASSET-001,CTRL-002,Partial,60,2026-09-20,Backup job logs - no restore test in 4 months
+ASSET-001,CTRL-003,Implemented,90,2026-10-01,CrowdStrike console
+ASSET-001,CTRL-004,Implemented,85,2026-10-28,WSUS report
+ASSET-001,CTRL-005,Partial,50,2026-08-15,RBAC matrix under review
+ASSET-001,CTRL-006,Implemented,80,2026-10-10,Network diagram + firewall rules
+ASSET-001,CTRL-007,Implemented,88,2026-10-25,Splunk dashboard
+ASSET-001,CTRL-008,Partial,55,2026-07-30,IR plan exists but not tested in 2026
+ASSET-001,CTRL-009,Implemented,92,2026-10-05,TDE enabled on SQL
+ASSET-001,CTRL-010,Implemented,75,2026-09-15,SAP vendor assessment
+ASSET-001,CTRL-011,Implemented,70,2026-10-20,KnowBe4 completion rate 78%
+ASSET-001,CTRL-012,Partial,45,2026-06-10,CyberArk POC in progress
+ASSET-002,CTRL-001,Implemented,98,2026-10-20,Salesforce MFA enforced
+ASSET-002,CTRL-002,Implemented,85,2026-10-10,SF Data Export + S3 backup
+ASSET-002,CTRL-003,Implemented,80,2026-10-05,CrowdStrike on endpoints
+ASSET-002,CTRL-004,Implemented,90,2026-10-28,Auto-updates enabled
+ASSET-002,CTRL-005,Implemented,85,2026-09-25,Profile-based permissions
+ASSET-002,CTRL-006,Not Implemented,0,2026-05-01,Cloud-native - no segmentation needed
+ASSET-002,CTRL-007,Implemented,75,2026-10-22,SF Event Monitoring
+ASSET-002,CTRL-008,Implemented,80,2026-09-30,IR playbook tested Q3
+ASSET-002,CTRL-009,Implemented,95,2026-10-15,Platform encryption enabled
+ASSET-002,CTRL-010,Implemented,70,2026-09-10,Salesforce Trust report
+ASSET-002,CTRL-011,Implemented,72,2026-10-18,Training completion 82%
+ASSET-002,CTRL-012,Not Implemented,0,2026-04-15,Not applicable - cloud managed
+ASSET-003,CTRL-001,Implemented,90,2026-10-18,DBA MFA + jump host
+ASSET-003,CTRL-002,Partial,55,2026-09-05,Backups exist but not encrypted
+ASSET-003,CTRL-003,Implemented,85,2026-10-02,CrowdStrike on DB servers
+ASSET-003,CTRL-004,Implemented,88,2026-10-27,Monthly patching cycle
+ASSET-003,CTRL-005,Partial,45,2026-08-20,Shared admin accounts found
+ASSET-003,CTRL-006,Implemented,92,2026-10-12,DB in isolated VLAN
+ASSET-003,CTRL-007,Implemented,90,2026-10-24,Database activity monitoring
+ASSET-003,CTRL-008,Partial,50,2026-07-15,IR plan exists - not tested for DB breach
+ASSET-003,CTRL-009,Implemented,95,2026-10-08,TDE + column-level encryption
+ASSET-003,CTRL-010,Implemented,75,2026-09-18,Oracle vendor review
+ASSET-003,CTRL-011,Implemented,68,2026-10-19,Training for DBAs only
+ASSET-003,CTRL-012,Partial,40,2026-06-25,PAM for DBAs in planning
+ASSET-004,CTRL-001,Partial,50,2026-08-10,Legacy HMI - MFA limited
+ASSET-004,CTRL-002,Implemented,80,2026-10-05,Weekly image backups
+ASSET-004,CTRL-003,Partial,45,2026-09-15,EDR on engineering stations only
+ASSET-004,CTRL-004,Partial,40,2026-07-20,Vendor patches delayed due to compatibility
+ASSET-004,CTRL-005,Implemented,75,2026-09-28,Role-based access for operators
+ASSET-004,CTRL-006,Implemented,95,2026-10-15,OT network fully segmented
+ASSET-004,CTRL-007,Implemented,82,2026-10-23,Claroty for OT monitoring
+ASSET-004,CTRL-008,Implemented,78,2026-09-25,OT-specific IR playbook
+ASSET-004,CTRL-009,Not Implemented,0,2026-03-10,Legacy protocols - cannot encrypt
+ASSET-004,CTRL-010,Implemented,70,2026-09-12,SIemens and Rockwell assessed
+ASSET-004,CTRL-011,Partial,55,2026-10-16,OT staff training incomplete
+ASSET-004,CTRL-012,Not Implemented,0,2026-02-28,Not applicable for OT
+ASSET-005,CTRL-001,Implemented,95,2026-10-22,Microsoft 365 MFA
+ASSET-005,CTRL-002,Implemented,90,2026-10-12,Exchange Online retention
+ASSET-005,CTRL-003,Implemented,88,2026-10-03,Defender for Endpoint
+ASSET-005,CTRL-004,Implemented,95,2026-10-29,Auto-updates
+ASSET-005,CTRL-005,Implemented,80,2026-09-30,Azure AD roles
+ASSET-005,CTRL-006,Implemented,75,2026-10-11,Exchange segmentation
+ASSET-005,CTRL-007,Implemented,85,2026-10-21,Defender for O365 alerts
+ASSET-005,CTRL-008,Implemented,82,2026-09-28,Email compromise playbook
+ASSET-005,CTRL-009,Implemented,90,2026-10-06,Encryption at rest enabled
+ASSET-005,CTRL-010,Implemented,65,2026-09-08,Microsoft Trust Center
+ASSET-005,CTRL-011,Implemented,75,2026-10-17,Phishing simulations Q3
+ASSET-005,CTRL-012,Implemented,70,2026-09-22,PAM for Global Admins
+ASSET-006,CTRL-001,Implemented,92,2026-10-19,Workday MFA
+ASSET-006,CTRL-002,Implemented,85,2026-10-09,Workday data export
+ASSET-006,CTRL-003,Implemented,82,2026-10-04,CrowdStrike on HR endpoints
+ASSET-006,CTRL-004,Implemented,88,2026-10-26,Browser auto-updates
+ASSET-006,CTRL-005,Implemented,85,2026-09-27,Workday security groups
+ASSET-006,CTRL-006,Not Implemented,0,2026-04-20,Cloud-native
+ASSET-006,CTRL-007,Implemented,78,2026-10-20,Workday activity logs
+ASSET-006,CTRL-008,Implemented,75,2026-09-24,HR data breach playbook
+ASSET-006,CTRL-009,Implemented,92,2026-10-07,PII encryption
+ASSET-006,CTRL-010,Implemented,72,2026-09-14,Workday Trust report
+ASSET-006,CTRL-011,Implemented,70,2026-10-15,HR staff training
+ASSET-006,CTRL-012,Not Implemented,0,2026-03-05,Not applicable
+ASSET-007,CTRL-001,Implemented,88,2026-10-16,AWS IAM + MFA
+ASSET-007,CTRL-002,Implemented,90,2026-10-11,RDS snapshots + S3 cross-region
+ASSET-007,CTRL-003,Implemented,85,2026-10-01,GuardDuty + Inspector
+ASSET-007,CTRL-004,Implemented,92,2026-10-28,Auto-patching via SSM
+ASSET-007,CTRL-005,Implemented,80,2026-09-26,IAM least privilege
+ASSET-007,CTRL-006,Implemented,88,2026-10-13,VPC segmentation
+ASSET-007,CTRL-007,Implemented,90,2026-10-24,CloudTrail + GuardDuty
+ASSET-007,CTRL-008,Implemented,85,2026-09-29,E-commerce IR playbook tested
+ASSET-007,CTRL-009,Implemented,95,2026-10-09,KMS encryption
+ASSET-007,CTRL-010,Implemented,68,2026-09-11,Stripe and payment vendors assessed
+ASSET-007,CTRL-011,Implemented,72,2026-10-18,Dev team training
+ASSET-007,CTRL-012,Implemented,75,2026-09-20,AWS SSO + break-glass
+ASSET-008,CTRL-001,Implemented,90,2026-10-17,Oracle MFA
+ASSET-008,CTRL-002,Partial,58,2026-09-02,Backups - restore test overdue
+ASSET-008,CTRL-003,Implemented,85,2026-10-02,CrowdStrike
+ASSET-008,CTRL-004,Implemented,87,2026-10-25,Monthly patches
+ASSET-008,CTRL-005,Partial,48,2026-08-18,Some shared accounts
+ASSET-008,CTRL-006,Implemented,82,2026-10-10,Finance VLAN
+ASSET-008,CTRL-007,Implemented,85,2026-10-22,Splunk for finance apps
+ASSET-008,CTRL-008,Partial,52,2026-07-18,IR plan not tested
+ASSET-008,CTRL-009,Implemented,90,2026-10-06,TDE enabled
+ASSET-008,CTRL-010,Implemented,70,2026-09-13,Oracle + SAP vendors
+ASSET-008,CTRL-011,Implemented,68,2026-10-14,Finance team training
+ASSET-008,CTRL-012,Partial,42,2026-06-20,PAM rollout phase 1
+ASSET-009,CTRL-001,Implemented,88,2026-10-18,SAP MFA
+ASSET-009,CTRL-002,Implemented,82,2026-10-08,SAP backup + HANA replication
+ASSET-009,CTRL-003,Implemented,83,2026-10-03,CrowdStrike
+ASSET-009,CTRL-004,Implemented,86,2026-10-26,SAP notes applied
+ASSET-009,CTRL-005,Implemented,80,2026-09-25,SAP roles reviewed
+ASSET-009,CTRL-006,Implemented,85,2026-10-12,SAP isolated subnet
+ASSET-009,CTRL-007,Implemented,82,2026-10-21,SAP security audit logs
+ASSET-009,CTRL-008,Implemented,78,2026-09-27,Supply chain IR playbook
+ASSET-009,CTRL-009,Implemented,88,2026-10-07,SAP encryption
+ASSET-009,CTRL-010,Implemented,72,2026-09-15,SAP and logistics vendors
+ASSET-009,CTRL-011,Implemented,70,2026-10-16,Logistics team training
+ASSET-009,CTRL-012,Partial,45,2026-06-22,SAP PAM in planning
+ASSET-010,CTRL-001,Implemented,92,2026-10-20,GitLab MFA
+ASSET-010,CTRL-002,Implemented,88,2026-10-10,GitLab + S3 backups
+ASSET-010,CTRL-003,Implemented,85,2026-10-04,CrowdStrike on R&D endpoints
+ASSET-010,CTRL-004,Implemented,90,2026-10-27,Auto-updates
+ASSET-010,CTRL-005,Implemented,82,2026-09-28,GitLab project permissions
+ASSET-010,CTRL-006,Implemented,88,2026-10-14,R&D isolated network
+ASSET-010,CTRL-007,Implemented,85,2026-10-23,GitLab audit logs + SIEM
+ASSET-010,CTRL-008,Implemented,80,2026-09-26,IP theft IR playbook
+ASSET-010,CTRL-009,Implemented,95,2026-10-08,Full disk + repo encryption
+ASSET-010,CTRL-010,Implemented,65,2026-09-09,Research partners assessed
+ASSET-010,CTRL-011,Implemented,75,2026-10-17,R&D security awareness
+ASSET-010,CTRL-012,Implemented,78,2026-09-21,GitLab Admin PAM
