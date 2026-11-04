@@ -45,19 +45,19 @@ CISOs spend **days** preparing reports for the Board of Directors, gathering dat
 
 ### Executive Dashboard
 
-![Executive Dashboard](docs/images/1.png)
+![Executive Dashboard](docs/1.png)
 
 *Main dashboard with risk heatmap and KPIs*
 
 ### Control Map
 
-![Control Map](docs/images/2.png)
+![Control Map](docs/2.png)
 
 *Radar chart of control effectiveness by category*
 
 ### What-If Analysis
 
-![What-If Analysis](docs/images/3.png)
+![What-If Analysis](docs/3.png)
 
 *Security investment simulator for CFO meetings*
 
